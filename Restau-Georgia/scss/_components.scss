@@ -1,3 +1,5 @@
+
+
 .logo {
   font-size: 70px;
   color: $color-primary;
@@ -6,5 +8,21 @@
   height: 110px;
   border: 3px solid $color-primary;
   border-radius: 50%;
+  margin-right: 20px;
   @include flexlayout;
+}
+
+.main-name {
+  font-family: $font-nunito;
+  font-size: 50px;
+  color: $color-secondary;
+  @include textStyles;
+}
+
+.sub-name {
+  font-family: $font-josefinSans;
+  font-size: 18px;
+  color: $color-secondary;
+  text-align: center;
+  @include textStyles;
 }
