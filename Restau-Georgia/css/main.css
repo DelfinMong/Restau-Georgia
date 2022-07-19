@@ -66,6 +66,9 @@ body {
   color: #bbb;
   text-align: justify;
 }
+.about-us-right .description::first-letter {
+  padding-left: 50px;
+}
 
 .logo {
   font-size: 70px;
