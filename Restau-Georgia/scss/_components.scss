@@ -64,3 +64,23 @@
     color: $color-dark;
   }
 }
+
+.card {
+  width: 33.333%;
+  height: 30vw;
+  position: relative;
+
+  &-overlay {
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color: 
+    @extend %fullspace;
+  }
+
+  &-img {
+    object-fit: cover;
+    opacity: .5;
+    @extend %fullspace;
+  }
+}
