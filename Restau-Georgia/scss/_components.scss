@@ -71,6 +71,11 @@
   position: relative;
   overflow: hidden;
 
+  &:hover .card-overlay {
+    left: 0;
+  }
+
+
   &-overlay {
     position:absolute;
     top: 0;
@@ -81,6 +86,7 @@
     @include flexlayout;
     flex-direction: column;
     @extend %fullSpace;
+    transition: left .7s;
 
     &-heading {
       font-family: $font-nunito;

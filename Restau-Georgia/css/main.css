@@ -155,6 +155,9 @@ body {
   position: relative;
   overflow: hidden;
 }
+.card:hover .card-overlay {
+  left: 0;
+}
 .card-overlay {
   position: absolute;
   top: 0;
@@ -166,6 +169,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  transition: left 0.7s;
 }
 .card-overlay-heading {
   font-family: "Nunito", sans-serif;
